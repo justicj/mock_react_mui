@@ -7,4 +7,4 @@ cd ui
 docker build -t muidemo .
 
 # Run the container, mapping port 3000 on host to port 3000 in the container
-docker run -p 3000:3000 muidemo
+docker run --name muidemo -p 3000:3000 muidemo
